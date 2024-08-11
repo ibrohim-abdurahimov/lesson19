@@ -1,0 +1,113 @@
+.hero{
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text,
+    &__img{
+        width: 50%;
+    }
+    &__img img{
+        width: 100%;
+    }
+    &__subtitle{
+        font-weight: 400;
+        font-size: 40px;
+        font-family: Lilitaone;
+    }
+    &__title{
+        width: 250px;
+        font-size: 35px;
+        font-weight: 400;
+        font-family: Lalezar;
+        color: #F42D2D;
+    }
+    &__btn{
+        border: none;
+        border-radius: 20px;
+        background-color: #FF0000;
+        padding: 14px 38px 14px 29px;
+        font-size: 12px;
+        font-family: Lalezar;
+        color: #fff;
+    }
+}
+
+@media (max-width:920px) {
+    .hero{
+        &__wrapper{
+            flex-direction: column-reverse;
+        }
+        &__subtitle{
+            text-align: center;
+        }
+        &__title{
+            width: auto;
+            margin: auto;
+            margin-top: 10px;
+            text-align: center;
+        }
+        &__btn{
+            display: block;
+            margin: 0 auto;
+            margin-top: 25px;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    
+}
+@media (max-width:500px) {
+    .hero{
+        &__subtitle{
+            font-size: 35px;
+        }
+        &__title{
+            font-size: 30px;
+        }
+        &__btn{
+            width: 100%;
+        }
+    }
+    
+}
+@media (max-width:430px) {
+    .hero{
+        &__subtitle{
+            font-size: 30px;
+        }
+        &__title{
+            font-size: 25px;
+        }
+    }
+    
+}
+@media (max-width:350px) {
+    .hero{
+        &__subtitle{
+            font-size: 25px;
+        }
+        &__title{
+            font-size: 20px;
+        }
+        &__btn{
+            padding: 10px 15px ;
+        }
+    }
+    
+}
+@media (max-width:300px) {
+    .hero{
+        &__subtitle{
+            font-size: 20px;
+        }
+        &__title{
+            font-size: 18px;
+        }
+        &__btn{
+            margin-top: 10px;
+        }
+    }
+    
+}

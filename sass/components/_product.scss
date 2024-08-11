@@ -1,0 +1,77 @@
+.product{
+    margin-top: 150px;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 36px;
+        padding-bottom: 10px;
+        overflow: scroll;
+    }
+    &__wrapper::-webkit-scrollbar{
+        width: 50px;
+        
+    }
+    &::-webkit-scrollbar-thumb{
+        height: 5px;
+        border-radius: 50px;
+        background-color: #dddd;
+    }
+    &__card{
+        min-width: 323px;
+        width: 323px;
+        padding: 73px 9px 39px 8px;
+        border-radius: 10px;
+        background-color: #EDF2F4;
+    }
+}
+@media (max-width:780px) {
+    .product{
+        &__card{
+            min-width: 260px;
+        }
+    }
+    
+}
+@media (max-width:650px) {
+    .product{
+        &__card{
+            min-width: 200px;
+        }
+    }
+    
+}
+@media (max-width:530px) {
+    .product{
+        &__wrapper{
+            gap: 27px;
+        }
+        &__card{
+            min-width: 150px;
+            
+        }
+    }
+    .card{
+        &__desc{
+            font-size: 14px;
+        }
+    }
+    
+}
+@media (max-width:400px) {
+    
+    .product{
+        &__wrapper{
+            gap: 25px;
+        }
+        &__card{
+            min-width: 120px;
+        }
+    }
+    .card{
+        &__desc{
+            font-size: 10px;
+        }
+    }
+    
+}

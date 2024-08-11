@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Regular.woff);
+}
+@font-face {
+    font-family: Lalezar;
+    src: url(../fonts/Lalezar-Regular.woff);
+}
+@font-face {
+    font-family: Lilitaone;
+    src: url(../fonts/LilitaOne-Regular.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+.container{
+    max-width: 1268px;
+    width: 100%;
+    margin: auto;
+    padding: 0 16px;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+img{
+    max-width: 100%;
+}
