@@ -72,3 +72,14 @@
     }
     
 }
+@media (max-width:320px){
+    .choose{
+        &__card{
+            &__title{
+                font-size: 20px;
+            }
+
+        }
+    }    
+    
+}
